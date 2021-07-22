@@ -3,16 +3,19 @@
 body {
     font-family: Arial, sans-serif;
 }
+.button {
+    border-radius: 20px;
+    color: white;
+}
 .bg_black {
     background-color: black;
 }
-.button {
-    border-radius: 20px;
-}
 .btn_darkgray {
     background-color: #363636;
-    color: white;
     margin: 0 20px;
+}
+.btn_orange {
+    background-color: #cd3d0f;
 }
 
 /* HEADER */
@@ -29,5 +32,29 @@ body {
 }
 
 /* MAIN */
+#hero {
+    background-image: url("../img/jumbo-bg.png");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+.hero_content {
+    padding: 300px 0 50px 0;
+}
+.hero_content h1,
+.hero_content p,
+.hero_content button {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.hero_content p {
+    font-size: 1.2rem;
+}
+.hero_content img {
+    width: 12rem;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
 
 /* FOOTER */
