@@ -26,14 +26,28 @@ body {
     width: 85%;
     margin: auto;
 }
+#hero_bottom button,
+.playstation_5_slider button {
+    border: none;
+    background-color: transparent;
+}
 
 /* HEADER */
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
 .header_top img {
     width: 6.5rem;
     margin: 10px 0;
     display: inline-block;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: 600;
@@ -56,10 +70,11 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
+    margin-top: 119px;
     padding-top: 50px;
 }
 .hero_content {
-    padding: 300px 0 50px 0;
+    padding: 250px 0 50px 0;
 }
 .hero_content h1,
 .hero_content p,
@@ -88,7 +103,16 @@ body {
     border: 3px solid transparent;
     margin-bottom: 20px;
 }
-.hero_bottom_content:hover img {
+#hero_bottom button {
+    border: none;
+    background-color: transparent;
+}
+.games-hover:focus #returnal-game,
+.games-hover:focus #spiderman-game,
+.games-hover:focus #horizon-game,
+.games-hover:focus #ratchet-clank-game,
+.games-hover:focus #fortnite-game,
+.games-hover:focus #remnant-game {
     padding: 3px;
     border: 3px solid #0072ce;
 }
@@ -98,6 +122,10 @@ body {
 
 #playstation_5 {
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+.playstation_5_intro {
+    margin-bottom: 40px;
 }
 .playstation_5_intro h5 {
     color: #0072ce;
@@ -114,5 +142,27 @@ body {
 .playstation_img {
     width: 90%;
 }
+.playstation_5_info {
+    display: flex;
+    align-items: center;
+}
+.playstation_5_info h3 {
+    font-size: 2.5rem;
+}
+.playstation_5_slider {
+    margin-top: 30px;
+}
+.playstation_5_slider img{
+    width: 80%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid transparent;
+    opacity: .6;
+}
+.playstation_5_slider_hover:focus img {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0072ce;
+    opacity: 1;
+}
+
 
 /* FOOTER */
