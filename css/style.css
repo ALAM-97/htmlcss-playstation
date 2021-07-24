@@ -22,7 +22,7 @@ body {
 }
 .btn_big {
     font-size: 1.5rem;
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 .wrapper {
     padding: 50px 0;
@@ -62,6 +62,10 @@ body {
 }
 .font_weight_700 {
     font-weight: 700;
+}
+#new_release h3,
+#playstation_4 h3 {
+    font-size: 2.5rem;
 }
 
 /* HEADER */
@@ -201,9 +205,6 @@ header {
     color: #fff;
     padding: 40px 0;
 }
-#new_release h3{
-    font-size: 2.5rem;
-}
 #new_release h5 {
     font-size: 1.5rem;
     margin: 20px 0 40px 0;
@@ -216,5 +217,24 @@ header {
     margin-top: 20px;
 }
 
+/* EXPLORE PS4 */
+
+#playstation_4 {
+    padding: 40px 0;
+}
+#playstation_4 h5,
+#playstation_4 p  {
+    font-size: 1.5rem;
+    color: #7c7c7c;
+    margin: 20px 0;
+}
+.hex-code {
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+#playstation_4 img {
+    margin-top: 35px;
+    width: 100%;
+}
 
 /* FOOTER */
