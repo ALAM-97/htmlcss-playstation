@@ -28,6 +28,10 @@ body {
     background-color: #d9dadc;
     color: #2d64e6;
 }
+.btn_ps_now {
+    background-color: #f5f5f5;
+    color: #161c3b;
+}
 .wrapper {
     padding: 50px 0;
     max-width: 1000px;
@@ -241,24 +245,27 @@ header {
     width: 100%;
 }
 
-/* PLAYSTATION PLUS */
+/* PLAYSTATION PLUS and PLAYSTATION NOW*/
 
 #playstation_plus {
     background-color: #bebcbb;
 }
-.ps-plus-info {
+.ps-plus-info,
+.ps-now-info {
     display: flex;
     align-items: center;
     margin: 30px 0;
 }
-.ps-plus-info img {
+.ps-plus-info img,
+.ps-now-info img {
     width: 80%;
 }
 #playstation_plus p {
     font-size: 1.1rem;
     margin: 20px 0 30px 0;
 }
-#playstation_plus .ps-plus-banner {
+#playstation_plus .ps-plus-banner,
+#playstation_now .ps-now-banner {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -273,6 +280,18 @@ header {
 #playstation_sales img{
     width: 100%;
     padding-top: 50px;
+}
+
+/* PLAYSTATION NOW */
+
+#playstation_now {
+    background-color: #161c3b;
+}
+
+#playstation_now p {
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    margin: 30px 0;
 }
 
 /* FOOTER */
