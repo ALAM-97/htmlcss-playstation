@@ -99,7 +99,7 @@ header {
     border: none;
     vertical-align: middle;
 }
-.dropdown-toggle:hover::after {
+.dropdown-toggle:focus::after {
     content: url("../img/chevron-down-solid-hover.svg");
 }
 
@@ -245,7 +245,6 @@ header {
 
 #playstation_plus {
     background-color: #bebcbb;
-    margin-bottom: 100px;
 }
 .ps-plus-info {
     display: flex;
