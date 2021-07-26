@@ -124,15 +124,24 @@ header {
 .dropdown-toggle:focus::after {
     content: url("../img/chevron-down-solid-hover.svg");
     transform: rotate(180deg);
-    margin-bottom: 2px;
-    
+    margin-bottom: 2px; 
 }
-
+.dropdown, .dropend, .dropstart, .dropup {
+    position: static;
+}
+.dropdown-menu {
+    width: 100%;
+}
+.dropdown-menu li{
+    display: inline-block;
+    list-style:disc;
+}
 /* HERO */
 
 #hero {
     background-image: url("../img/jumbo-bg.png");
     margin-top: 119px;
+    margin-bottom: 20px;
     padding-top: 50px;
 }
 #hero .hero_content {
@@ -171,7 +180,7 @@ header {
 .games-hover #ratchet-clank-game,
 .games-hover #fortnite-game,
 .games-hover #remnant-game {
-    margin-top: 10px;
+    margin-top: 15px;
     transition: margin-top .4s;
 }
 .games-hover:hover #returnal-game,
@@ -188,8 +197,7 @@ header {
 /* PLAYSTATION 5 */
 
 #playstation_5 {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    padding: 70px 0;
 }
 .playstation_5_intro {
     margin-bottom: 40px;
