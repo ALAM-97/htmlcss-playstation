@@ -335,6 +335,14 @@ footer {
     vertical-align: middle;
 }
 
+.footer_bottom img {
+    width: 15%;
+    margin: 15px 0;
+}
+
+.footer_bottom a {
+    text-decoration: underline;
+}
 /* MEDIA QUERIES  */
 
 @media screen and (min-width: 575px) {
