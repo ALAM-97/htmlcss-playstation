@@ -76,6 +76,13 @@ body {
 #socials h3 {
     font-size: 2.5rem;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
 
 /* HEADER */
 
@@ -312,6 +319,21 @@ header {
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #00439c;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.footer_top .language_globe img {
+    width: 1rem;
+    margin: 20px 10px 20px 0;
+}
+
+.footer_top span {
+    vertical-align: middle;
+}
 
 /* MEDIA QUERIES  */
 
