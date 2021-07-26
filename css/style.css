@@ -264,4 +264,15 @@ header {
     padding: 0;
 }
 
+/* PLAYSTATION_SALES */
+
+#playstation_sales {
+    padding: 60px 0;
+}
+
+#playstation_sales img{
+    width: 100%;
+    padding-top: 50px;
+}
+
 /* FOOTER */
