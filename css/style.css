@@ -108,11 +108,17 @@ header {
 .dropdown-toggle::after {
     content: url("../img/chevron-down-solid.svg");
     width: 12px;
+    height: 12px;
+    margin-bottom: 10px;
     border: none;
-    vertical-align: middle;
+    vertical-align: bottom;
+    transition: transform .4s;
 }
 .dropdown-toggle:focus::after {
     content: url("../img/chevron-down-solid-hover.svg");
+    transform: rotate(180deg);
+    margin-bottom: 2px;
+    
 }
 
 /* HERO */
@@ -343,6 +349,7 @@ footer {
 .footer_bottom a {
     text-decoration: underline;
 }
+
 /* MEDIA QUERIES  */
 
 @media screen and (min-width: 575px) {
