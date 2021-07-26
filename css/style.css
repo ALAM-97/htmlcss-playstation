@@ -32,6 +32,10 @@ body {
     background-color: #f5f5f5;
     color: #161c3b;
 }
+.btn:hover .btn_link {
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
 .wrapper {
     padding: 50px 0;
     max-width: 1000px;
@@ -80,6 +84,9 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: #fff;
+}
 ul {
     list-style: none;
 }
@@ -112,7 +119,7 @@ header {
     margin-bottom: 10px;
     border: none;
     vertical-align: bottom;
-    transition: transform .4s;
+    transition: transform .3s;
 }
 .dropdown-toggle:focus::after {
     content: url("../img/chevron-down-solid-hover.svg");
@@ -139,6 +146,7 @@ header {
 }
 .hero_bottom_content img {
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     padding: 3px;
     border: 3px solid transparent;
@@ -157,12 +165,30 @@ header {
     padding: 3px;
     border: 3px solid #0072ce;
 }
+.games-hover #returnal-game,
+.games-hover #spiderman-game,
+.games-hover #horizon-game,
+.games-hover #ratchet-clank-game,
+.games-hover #fortnite-game,
+.games-hover #remnant-game {
+    margin-top: 10px;
+    transition: margin-top .4s;
+}
+.games-hover:hover #returnal-game,
+.games-hover:hover #spiderman-game,
+.games-hover:hover #horizon-game,
+.games-hover:hover #ratchet-clank-game,
+.games-hover:hover #fortnite-game,
+.games-hover:hover #remnant-game {
+    margin-top: 0;
+}
+
 
 
 /* PLAYSTATION 5 */
 
 #playstation_5 {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 .playstation_5_intro {
